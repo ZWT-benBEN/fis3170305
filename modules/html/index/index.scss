@@ -1,0 +1,21 @@
+@import "/modules/css/common.scss";
+.content{
+    margin: 0 auto;
+    img{
+        float: left;
+        margin: 5%;
+        width: 80px;
+        height: 30px;
+    }
+    .item{
+        float: left;
+        //background-color: darkslategrey;
+        background-image: url(images/1.jpg);
+        border: 1px solid black;
+        margin: 5%;
+        width: 20vw;
+        //height: 20vw;
+        height: 0;
+        padding-bottom: 20%;
+    }
+}

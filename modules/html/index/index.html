@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="index.scss">
+<!--背景盒子-->
+<div class="content clearfix">
+	<!--<img src="images/1.jpg" alt="">
+	<img src="images/2.jpg" alt="">-->
+	<div class="itemz"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+</div>
+<div id="diobox"></div>
+<script type="text/javascript">
+//	require('bootstrap/js/modal');
+	var main = require('/modules/app/main');
+	$(function(){
+		$('.item').on('click',function(){
+			main.dialogBox.init('#diobox',{
+				title: '提示',
+				hasClose: true,
+				hasMask:true,
+				content: 'THIS IS DIOLOGBOX',
+				hasBtn: true,
+				confirmValue: '我知道了',
+			})
+		})
+	})
+</script>
