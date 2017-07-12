@@ -2,12 +2,12 @@
   "name": "default",
   "version": "1.0.0",
   "description": "Default template for fis scaffold",
-  "main": "index.js",
+  "main": "fis-conf.js",
   "scripts": {
     "test": "standard && node my-tests.js",
     "clean": "fis3 server clean",
     "listen": "fis3 release -wL",
-    "start": "fis3 server start && fis3 release -wL",
+    "dev": "fis3 server start && fis3 release -wL",
     "release": "fis3 release prd-debug -d dist"
   },
   "repository": {
