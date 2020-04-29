@@ -33,7 +33,7 @@
     "countup.js": "^1.7.1",
     "fis3-parser-node-sass": "^0.1.9",
     "fis3-postprocessor-extras_uri": "^0.1.0",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "normalize.css": "^4.2.0",
     "parsleyjs": "^2.5.0",
     "pikaday": "^1.4.0",
